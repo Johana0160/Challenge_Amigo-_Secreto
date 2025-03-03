@@ -49,7 +49,7 @@ function generarNombreSecreto() {
 }
 
 function condicionesIniciales() {
-    asignarTextoElemento('h1', '¡Juego del nombre secreto!');
+    asignarTextoElemento('h1', '¡Juego del Amigo Secreto!');
     asignarTextoElemento('p', `Indica un nombre de la lista: ${nombres.join(', ')}`);
     nombreSecreto = generarNombreSecreto();
     intentos = 1;
